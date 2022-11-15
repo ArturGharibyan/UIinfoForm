@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.ValidationDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 825px;
+    background:
+        linear-gradient(rgb(255, 0, 0), transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+
+
+  
+
+.ValidationelementsDiv{  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    box-shadow:  5px 10px 10px rgba(180, 20, 212, 0.781);
+    border-radius: 10px;
+    height: 700px;
+    background-color: rgba(255, 0, 212, 0.288);
+}
+
+.Validationelements>form>div{
+    width: 100%;
+    align-items: center;
+}
+
+form>div{
+    position: relative;
+}
+
+.inputs{
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputPhonediv{
+width: 100%;
+position: relative;
+text-align: left;
+margin: 10px;
+
+}
+
+
+
+.dateinput{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.inputphone{
+    
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    color: rgb(19, 7, 16);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.Favoritsport>p{
+    display:inline-flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Favoritsport>input[type="checkbox"]{
+  margin: 10px;
+  
+}
+
+.register{
+    text-align: right;
+}
+
+.register>button{
+width: 120px;
+height: 35px;
+border-radius: 5px;
+border: none;
+background-color: rgb(21, 94, 230);
+color: aliceblue;
+
+
+}
+
+.register>button:hover{
+    background-color: rgb(13, 13, 100);
+}
+
+.firstnameSpan{
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    top: 73px;
+    display: none;
+
+}
+
+.lastnameSpan{
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    top: 73px;
+    display: none;
+}
+
+.emailSpan{
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    top: 73px;
+    display: none;
+}
+

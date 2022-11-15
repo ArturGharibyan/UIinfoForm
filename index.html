@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<div class="ValidationDiv">
+
+    
+    <div class="ValidationelementsDiv">
+        <form id="form">
+            <div>
+                <div>
+                    <label>First Name</label>
+                </div>
+                <input id="firstnameInput" class="inputs" type="text" placeholder="First Name"/><br>
+                <span  class="firstnameSpan">name must contain at least three characters</span>
+            </div>
+            <div>
+                <div>
+                    <label>Last Name</label>
+                </div>
+                <input id="lastnameInput" class="inputs" type="text" placeholder="Last Name"/><br>
+                <span class="lastnameSpan" >lastname must contain at least three characters</span>
+            </div>
+            <div>
+                <div>
+                    <label>Date</label>
+                </div>
+                <input id="dateInput" class="dateinput" id="date" type="date"  />
+            </div>
+            <div>
+                <div>
+                    <label>Email</label>
+                </div>
+                <input id="emailInput" class="inputs" type="email" placeholder="Email address"/><br>
+                <span class="emailSpan">must contain at least the @ symbol</span>
+            </div>
+            <div class="inputPhonediv">
+                <div>
+                    <label>Write yor Phone</label>
+                </div>
+                <input  class="inputphone" id="phone"  type="tel" name="phone"/>
+            </div>
+            <div>
+                <div>
+                    <label>Favorite Sports</label>
+                </div>
+                <div class="Favoritsport">
+                    
+                    <input class="checkbox" type="checkbox" /><p>Gym</p><br>
+                    <input class="checkbox" type="checkbox" /><p>Swimming</p><br>
+                    <input class="checkbox" type="checkbox" /><p>Volleyball</p>
+                </div>
+                <div class="register">
+                    <button id="registrationButton">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</div>
+</body>
+
+</html>
